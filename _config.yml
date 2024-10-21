@@ -23,8 +23,8 @@ author:
   # Biographic information
   avatar           : "Selfie.png"
   name             : "Zijing Wan"
-  pronouns         : #"she/her"  
-  bio              : #"Short biography for the left-hand sidebar"
+  pronouns         : 
+  bio              : 
   location         : "Santa Barbara"
   employer         : #"Red Brick University"
   uri              : #https://ZijingWan.github.io
