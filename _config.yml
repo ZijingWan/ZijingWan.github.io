@@ -8,12 +8,12 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zijing Wan"
+title                    : "Zijing Wan'sPersonal Homepage"
 title_separator          : "-"
 name                     : &name "Zijing Wan"
 description              : &description "Senior Student from UCSB"
-url                      : https://ZijingWan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : #https://ZijingWan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ZijingWan/ZijingWan.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -22,12 +22,12 @@ repository               : "ZijingWan/ZijingWan.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Zijing Wan/Personal Homepage"
-  pronouns         : "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : https://ZijingWan.github.io
+  name             : "Zijing Wan"
+  pronouns         : #"she/her"  
+  bio              : #"Short biography for the left-hand sidebar"
+  location         : "Santa Barbara"
+  employer         : #"Red Brick University"
+  uri              : #https://ZijingWan.github.io
   email            : "zijing_wan@ucsb.edu" 
 
   # Academic websites
@@ -36,7 +36,7 @@ author:
   impactstory      : # URL
   orcid            : #"http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
   # Repositories and software development
