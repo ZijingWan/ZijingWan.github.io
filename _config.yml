@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zijing Wan'sPersonal Homepage"
+title                    : "Zijing Wan's Personal Homepage"
 title_separator          : "-"
 name                     : &name "Zijing Wan"
 description              : &description "Senior Student from UCSB"
