@@ -11,3 +11,5 @@ citation: 'Rui Xu, Fang Fang, Qingyi Hao, Kang Zheng, Yi Zhou, Yuting Feng, Shen
 ---
 
 This paper presents a real-time monitoring system for urban road ponding, designed to integrate intelligent surveillance, warning mechanisms, and unified management. The system, URPWS, uses lightweight semantic segmentation networks for accurate detection and has been applied in Nanning, Guangxi Province, as a new solution for managing urban road flooding risks.
+
+[**Download Paper**](http://ZijingWan.github.io/files/URPWS.pdf)
