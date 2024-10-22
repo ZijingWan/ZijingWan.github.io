@@ -91,7 +91,7 @@ collections:
     permalink: /:collection/:path/
   projects:  # 更新此处为 projects
     output: true
-    permalink: /:collection/:path/
+    permalink: /projects/:path/
   talks:
     output: true
     permalink: /:collection/:path/
