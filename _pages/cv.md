@@ -15,20 +15,20 @@ Education
 
 Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Data Scarcity in Satellite-derived Building Damage Assessment
+_Feb 2024 – Present, Remote_
+  * Utilized open-source data to address data scarcity in building damage assessments.
+  * Developed a Vision Transformer model and applied diffusion modeling to simulate disaster scenarios.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Spatial Morphological Information Extraction in Geological Texts
+_Nov 2023 – July 2024, Wuhan, China_
+  * Labeled geological texts and collaborated on dataset building.
+  * Conducted statistical analysis for SMI categories and co-authored a research paper on GeoSMIE.
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Smart City Management Information System
+_Jun 2023 – Sep 2023, Wuhan, China_
+  * Collected and pre-processed video data for urban management scenarios.
+  * Assisted in training algorithms for road ponding detection.
   
 Skills
 ======
