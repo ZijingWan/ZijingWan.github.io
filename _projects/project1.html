@@ -5,43 +5,81 @@ excerpt: "This project developed a deep learning-based system using TensorFlow a
 collection: projects
 ---
 
-# FoodNet: AI-Powered Food Recognition and Calorie Estimation
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodNet: AI-Powered Food Recognition and Calorie Estimation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FoodNet: AI-Powered Food Recognition and Calorie Estimation</h1>
+    </header>
 
-## Project Overview
-FoodNet is a project designed to leverage deep learning for food recognition and calorie estimation. It comprises a food classification model and a mobile-friendly web application, allowing users to easily identify different types of food and estimate their caloric content. The system aims to promote better eating habits by providing users with accurate nutritional information about the food they consume.
+    <section id="project-overview">
+        <h2>Project Overview</h2>
+        <p>FoodNet is a project designed to leverage deep learning for food recognition and calorie estimation. It comprises a food classification model and a mobile-friendly web application, allowing users to easily identify different types of food and estimate their caloric content. The system aims to promote better eating habits by providing users with accurate nutritional information about the food they consume.</p>
+        <p>The project is divided into two main components:</p>
+        <ul>
+            <li><strong>FoodNet Model</strong>: A deep learning-based model trained to classify various food items and estimate their calorie content.</li>
+            <li><strong>FoodNet App</strong>: A user-friendly web application that integrates the FoodNet model to provide real-time food recognition and calorie estimation.</li>
+        </ul>
+    </section>
 
-The project is divided into two main components:
+    <section id="key-features">
+        <h2>Key Features</h2>
+        <h3>1. Food Recognition and Classification</h3>
+        <ul>
+            <li>Utilized <strong>Convolutional Neural Networks (CNNs)</strong> for training a robust model capable of recognizing over 100 different types of food.</li>
+            <li>Applied <strong>transfer learning</strong> with pretrained models (e.g., ResNet) to achieve high accuracy with limited training data.</li>
+        </ul>
 
-- **[FoodNet Model](https://github.com/Cheng-K/FoodNet/tree/main)**: A deep learning-based model trained to classify various food items and estimate their calorie content.
-- **[FoodNet App](https://github.com/Cheng-K/FoodNet-App)**: A user-friendly web application that integrates the FoodNet model to provide real-time food recognition and calorie estimation.
+        <h3>2. Calorie Estimation</h3>
+        <ul>
+            <li>Developed a system for estimating calories based on the identified food type and portion size.</li>
+            <li>Integrated an algorithm that matches food images with nutritional databases to provide precise calorie information.</li>
+        </ul>
 
-## Key Features
-### 1. Food Recognition and Classification
-- Utilized **Convolutional Neural Networks (CNNs)** for training a robust model capable of recognizing over 100 different types of food.
-- Applied **transfer learning** with pretrained models (e.g., ResNet) to achieve high accuracy with limited training data.
+        <h3>3. Mobile-Friendly Application</h3>
+        <ul>
+            <li>Created a <strong>React-based web application</strong> that allows users to take pictures of their meals using their mobile devices.</li>
+            <li>Built a backend using <strong>Flask</strong> to connect the app to the trained FoodNet model, enabling real-time processing and feedback.</li>
+        </ul>
 
-### 2. Calorie Estimation
-- Developed a system for estimating calories based on the identified food type and portion size.
-- Integrated an algorithm that matches food images with nutritional databases to provide precise calorie information.
+        <h3>4. User Engagement and Tracking</h3>
+        <ul>
+            <li>Implemented a feature that allows users to <strong>log their meals</strong> and track their daily calorie intake.</li>
+            <li>Added support for <strong>user accounts</strong>, enabling personalization and keeping track of their food history over time.</li>
+        </ul>
+    </section>
 
-### 3. Mobile-Friendly Application
-- Created a **React-based web application** that allows users to take pictures of their meals using their mobile devices.
-- Built a backend using **Flask** to connect the app to the trained FoodNet model, enabling real-time processing and feedback.
+    <section id="technology-stack">
+        <h2>Technology Stack</h2>
+        <ul>
+            <li><strong>Deep Learning Model</strong>: Python, TensorFlow, Keras, ResNet for food image classification.</li>
+            <li><strong>Web Application</strong>: React for the frontend, Flask for the backend.</li>
+            <li><strong>Deployment</strong>: Hosted the model and web app using <strong>Heroku</strong>, enabling accessibility across different devices.</li>
+        </ul>
+    </section>
 
-### 4. User Engagement and Tracking
-- Implemented a feature that allows users to **log their meals** and track their daily calorie intake.
-- Added support for **user accounts**, enabling personalization and keeping track of their food history over time.
+    <section id="challenges-solutions">
+        <h2>Challenges and Solutions</h2>
+        <ul>
+            <li><strong>Data Scarcity</strong>: Food datasets were limited and unbalanced. Solved by utilizing <strong>data augmentation</strong> techniques and fine-tuning pretrained models to improve performance.</li>
+            <li><strong>Portion Size Estimation</strong>: Estimating portion sizes is challenging with 2D images. Developed a heuristic method based on typical portion sizes to improve the accuracy of calorie estimation.</li>
+        </ul>
+    </section>
 
-## Technology Stack
-- **Deep Learning Model**: Python, TensorFlow, Keras, ResNet for food image classification.
-- **Web Application**: React for the frontend, Flask for the backend.
-- **Deployment**: Hosted the model and web app using **Heroku**, enabling accessibility across different devices.
+    <section id="future-improvements">
+        <h2>Future Improvements</h2>
+        <ul>
+            <li><strong>3D Portion Size Estimation</strong>: Incorporate depth estimation to enhance the precision of portion size evaluation.</li>
+            <li><strong>Expansion of Food Categories</strong>: Continuously increase the number of supported food items, especially regional dishes and complex food types.</li>
+            <li><strong>Integration with Health Apps</strong>: Connect the app with popular fitness and health tracking platforms, such as Google Fit and Apple Health, for seamless data integration.</li>
+        </ul>
+    </section>
 
-## Challenges and Solutions
-- **Data Scarcity**: Food datasets were limited and unbalanced. Solved by utilizing **data augmentation** techniques and fine-tuning pretrained models to improve performance.
-- **Portion Size Estimation**: Estimating portion sizes is challenging with 2D images. Developed a heuristic method based on typical portion sizes to improve the accuracy of calorie estimation.
-
-## Future Improvements
-- **3D Portion Size Estimation**: Incorporate depth estimation to enhance the precision of portion size evaluation.
-- **Expansion of Food Categories**: Continuously increase the number of supported food items, especially regional dishes and complex food types.
-- **Integration with Health Apps**: Connect the app with popular fitness and health tracking platforms, such as Google Fit and Apple Health, for seamless data integration.
+</body>
+</html>
