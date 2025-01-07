@@ -1,6 +1,6 @@
 ---
 title: "🌍 World Happiness Report Interactive Map"
-excerpt: "Developed an interactive Shiny app to visualize the World Happiness Report data (2008-2023), enabling users to explore happiness indices across countries and continents. The project combined intuitive design with dynamic geospatial maps and real-time data adjustments, making complex relationships—like those between GDP, social support, and life expectancy—easy to navigate and understand."
+excerpt: "<p>Developed an interactive Shiny app to visualize the World Happiness Report data (2008-2023), enabling users to explore happiness indices across countries and continents. The project combined intuitive design with dynamic geospatial maps and real-time data adjustments, making complex relationships—like those between GDP, social support, and life expectancy—easy to navigate and understand.</p>"
 collection: projects
 ---
 
