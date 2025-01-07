@@ -1,7 +1,7 @@
 ---
 title: "GeoSMIE: An event extraction framework for Document-Level spatial morphological information extraction"
 collection: publications
-category: Journal
+category: manuscripts
 permalink: /publication/22025-01-06-paper-number-title-3
 excerpt: 'This paper proposes GeoSMIE, a novel document-level event extraction framework that leverages dual graph neural networks and a no-trigger-word strategy to effectively extract spatial morphological information (SMI) from geological texts, surpassing state-of-the-art models in accuracy, recall, and Micro-F1 performance.'
 date: 2025-01-02
