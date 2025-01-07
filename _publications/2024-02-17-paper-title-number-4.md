@@ -12,4 +12,5 @@ This paper presents a real-time monitoring system for urban road ponding, design
 
 
 **Recommended citation:**  
-Rui Xu, Fang Fang, Qingyi Hao, Kang Zheng, Yi Zhou, Yuting Feng, Shengwen Li, and Zijing Wan. (2023). *"URPWS: An Urban Road Ponding Monitoring and Warning System Based on Surveillance Video."*  *Asia-Pacific Web (APWeb) and Web-Age Information Management (WAIM). Springer Nature Singapore.* (https://link.springer.com/chapter/10.1007/978-981-97-2421-5_35)
+Rui Xu, Fang Fang, Qingyi Hao, Kang Zheng, Yi Zhou, Yuting Feng, Shengwen Li, and Zijing Wan. (2023). *"URPWS: An Urban Road Ponding Monitoring and Warning System Based on Surveillance Video."*  *Asia-Pacific Web (APWeb) and Web-Age Information Management (WAIM). Springer Nature Singapore.*
+(https://link.springer.com/chapter/10.1007/978-981-97-2421-5_35)
